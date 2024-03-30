@@ -63,3 +63,8 @@ main{
 .nosotros{
     font-size: 25px;
 }
+
+.catalogo{
+    height: 100px;
+    width: 100px;
+}
