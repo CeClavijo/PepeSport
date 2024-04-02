@@ -1,5 +1,7 @@
 *{
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 header{
     height: auto;
@@ -7,7 +9,6 @@ header{
 }
 nav{
     text-align:center;
-    padding-top: 15px;
     padding-bottom: 20px;
 }
 nav ul {
@@ -58,13 +59,26 @@ main{
 .carusel{
     height: 500px;
     width: 500px;
-    float: left;
 }
 .nosotros{
     font-size: 25px;
 }
 
 .catalogo{
+    height: 200px;  
+    width: 200px;
+}
+header img{
+    height: 150px;
+    width: 750px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
     height: 100px;
-    width: 100px;
+    color: white;
+}
+footer p{
+    font-size: 100px;
+    
 }
