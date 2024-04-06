@@ -84,8 +84,27 @@ footer p{
 }
 
 .imagen{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin-top: 50px;
     margin-left: 50px;
 }
+.imagen-producto {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: left; 
+    padding-top: 20px;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .imagen-producto img {
+    max-width: 100%;
+        margin-right: 20px;
+  }
+  
+  .informacion-producto {
+    flex: 1; /* El texto ocupa todo el espacio restante */
+    margin-right: 20px; /* Añade margen entre el texto y la imagen */
+ } 
