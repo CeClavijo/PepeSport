@@ -118,8 +118,6 @@ footer p{
 
 /*quienes somos*/
 .nosotros{
-    padding-left:500px;
-    padding-right: 500px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -185,8 +183,8 @@ footer p{
         font-size: 20px;
     }
     .nosotros{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .nosotros p{
         
@@ -233,6 +231,12 @@ footer p{
     }
     .informacion-producto {
         font-size: 10px;
+    }
+}
+@media only screen and (min-width:768px){
+    .nosotros{
+    padding-left:500px;
+    padding-right:500px;
     }
 }
 
