@@ -85,8 +85,12 @@ footer{
 footer a{
     padding-right: 10px;
     font-size: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+footer a:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
 }
 footer p{
     padding-top: 10px;
@@ -114,6 +118,8 @@ footer p{
 
 /*quienes somos*/
 .nosotros{
+    padding-left:500px;
+    padding-right: 500px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -178,7 +184,12 @@ footer p{
     .famo{
         font-size: 20px;
     }
+    .nosotros{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
     .nosotros p{
+        
         font-size: 15px;
     }
     .nosotros video{
@@ -201,6 +212,12 @@ footer p{
     }
     footer a{
         font-size: 8px;
+    }
+    footer h5{
+        font-size: 12px;
+    }
+    footer h6{
+        font-size: 10px;
     }
     footer p{
         padding-top: 8px;
