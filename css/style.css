@@ -92,6 +92,7 @@ footer p{
     padding-top: 10px;
 }
 
+/*iconos en home de famosos*/
 .famoso{
     display: flex;
     justify-content: center;
@@ -110,6 +111,8 @@ footer p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
+
+/*quienes somos*/
 .nosotros{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,6 +126,8 @@ footer p{
     width:  640px;
     padding-bottom: 30px;
 }
+
+/*galeria de imagenes*/
 .titulo{
     color:white;
     text-align:center; 
@@ -138,6 +143,7 @@ footer p{
     height: 300px;
 }
 
+/*muestra del producto*/
 .imagen-producto {
     display: flex;
     align-items: center;
@@ -201,7 +207,7 @@ footer p{
     }
     .galeria img{
         width: 80px;
-        height: 80px;
+        height: 100px;
     }
     .imagen-producto img {
         width: 200px;
