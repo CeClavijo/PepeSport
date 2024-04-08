@@ -88,13 +88,21 @@ footer a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-footer a:hover{
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+.insta:hover{
+    text-shadow: 0 0 10px rgba(236, 54, 172, 0.867);
     text-decoration: underline;
+    color: rgba(221, 42, 123);
+}
+.wasap:hover{
+    text-shadow: 0 0 10px rgba(68, 247, 14, 0.867);
+    text-decoration: underline;
+    color: rgba(37, 221, 102);
+
 }
 footer p{
     padding-top: 10px;
 }
+
 
 /*iconos en home de famosos*/
 .famoso{
