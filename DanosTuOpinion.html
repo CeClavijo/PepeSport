@@ -6,60 +6,70 @@
     <link rel="stylesheet" href="DanosTuOpinion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
-  <body>
-    <h1>Formulario de valoración PepeSport</h1>
-    <h4>Danos tu opinión sobre tu experiencia en PepeSport</h4>
-    <div class="container">
-      <div class="post">
-        <div class="text">¡Muchas gracias por tu opinión!</div>
-        <div class="edit">Puedes editar tu opinión</div>
-      </div>
-      <div class="star-widget">
-        <input type="radio" name="rate" id="rate-5">
-        <label for="rate-5" class="fas fa-star"></label>
-        <input type="radio" name="rate" id="rate-4">
-        <label for="rate-4" class="fas fa-star"></label>
-        <input type="radio" name="rate" id="rate-3">
-        <label for="rate-3" class="fas fa-star"></label>
-        <input type="radio" name="rate" id="rate-2">
-        <label for="rate-2" class="fas fa-star"></label>
-        <input type="radio" name="rate" id="rate-1">
-        <label for="rate-1" class="fas fa-star"></label>
-        <form action="#">
-		
+  <body> 
+    <form action="https://formspree.io/f/{form_id}" method="post">
+        <label for="Email">Indica tu correo</label>
+        <input name="Email" id="email" type="email">
+        <button type="submit">Enviar</button>
+      </form>
+   
+        <h1>Formulario de valoración PepeSport</h1>
+        <div class="container">
+        <div class="post">
+            <div class="text">¡Muchas gracias por tu opinión!</div>
+            <div class="edit">Puedes editar tu opinión</div>
+        </div>
+        <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5">
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4">
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3">
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2">
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1">
+            <label for="rate-1" class="fas fa-star"></label>
+            <form action="#">
+            
             <div class="text">
             <textarea cols="50" placeholder="Ingresa tus nombres"></textarea>
             <form action="">
             <label for="nombre"></label> 
             <input type="text" name="nombre" id="nombre">   
             </form>
-            
-            <div class="text">
-                <textarea cols="50" placeholder="Ingresa tus apellidos"></textarea>
-                <form action="">
-                <label for="apellidos"></label> 
-                <input type="text" name="apellidos" id="apellidos">   
-                </form>
-                 <div class="text">
-                    <textarea cols="50" placeholder="Ingresa tu correo electronico"></textarea>
+                
+                <div class="text">
+                    <textarea cols="50" placeholder="Ingresa tus apellidos"></textarea>
                     <form action="">
-                    <label for="correo electronico"></label> 
-                    <input type="text" name="correo electronico" id="correo electronico">   
+                    <label for="apellidos"></label> 
+                    <input type="text" name="apellidos" id="apellidos">   
                     </form>
                     <div class="text">
-                        <textarea cols="50" placeholder="Ingresa tu numero celular"></textarea>
+                        <textarea cols="50" placeholder="Ingresa tu correo electronico"></textarea>
                         <form action="">
-                        <label for="Celular"></label> 
-                        <input type="text" name="celular" id="celular">   
+                        <label for="correo electronico"></label> 
+                        <input type="text" name="correo electronico" id="correo electronico">   
                         </form>
+                        <div class="text">
+                            <textarea cols="50" placeholder="Ingresa tu numero celular"></textarea>
+                            <form action="">
+                            <label for="Celular"></label> 
+                            <input type="text" name="celular" id="celular">   
+                            </form>
+                        </div>  
+                      
 
+    
 
-          </div>  
+    </form>
+           
           <div class="textarea">
             <textarea cols="30" placeholder="Describe tu experiencia"></textarea>
           </div>
           <div class="btn">
             <button type="submit">Enviar</button required>
+        </form>
           </div>
         </form>
       </div>
